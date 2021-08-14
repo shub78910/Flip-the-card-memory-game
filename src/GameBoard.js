@@ -45,6 +45,7 @@ function GameBoard() {
     const [shuffledArray, setShuffledArray] = useState(shuffleCards(imagesArray))
     const [tempState, setTempState] = useState(0);
 
+    // temp state to make ui updates on reset.
     useEffect(() => {
     }, [tempState])
 
